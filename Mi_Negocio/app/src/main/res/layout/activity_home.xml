@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="94dp"
+        android:text="@string/ingresar"
+        android:textSize="12sp"
+        app:backgroundTint="#EDFF5722"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginBottom="43dp"
+        android:text="@string/registrarse"
+        android:textSize="12sp"
+        app:backgroundTint="#EDFF5722"
+        tools:ignore="TextContrastCheck" />
+
+    <SearchView
+        android:id="@+id/buscador_producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="609dp"
+        android:background="#117A7070"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="302dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="665dp"
+        app:srcCompat="@drawable/name"
+        android:contentDescription="TODO" />
+
+</RelativeLayout>

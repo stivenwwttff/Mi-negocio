@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "674510152707",
+    "project_id": "buyyinf",
+    "storage_bucket": "buyyinf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674510152707:android:9fa685b94ca58f9a091a36",
+        "android_client_info": {
+          "package_name": "com.example.mi_negocio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674510152707-4r6fosvf2qpge9e3q7sndhileuristr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxsVXucGTLMuPLuLOUCaTBBTR0iK9kv3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674510152707-4r6fosvf2qpge9e3q7sndhileuristr1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
